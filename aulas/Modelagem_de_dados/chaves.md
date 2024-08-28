@@ -33,3 +33,9 @@ CREATE TABLE {{tabela}} (
 ALTER TABLE {{tabela}}
 MODIFY COLUMN ID INT PRIMARY KEY;
 ```
+
+# Quem Herda a Chave?
+
+### Relação N para 0 ou 1 >> o N ganha
+### Relação 1 para 1 >> decisão do dev
+### Relação N para N >> tabela auxiliar 
