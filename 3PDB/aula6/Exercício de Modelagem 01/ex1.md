@@ -6,3 +6,31 @@ __A)__ Nome e endereço de cada um dos Campus.
 __B)__ Para cada campus, quais são os blocos de sala de aula e para cada bloco quantas salas esse possui e quantos andares.
 
 __C)__ De cada sala é necessário saber quantas carteiras temos nela, sua área e quais são as certeiras que estão localizadas na sala com: número de patrimônio da carteira e se o braço de apoio é do lado direito ou do lado esquerdo.
+
+# ENTIDADES
+1. CAMPUS
+2. BLOCO
+3. SALA
+
+### CAMPUS
+#### Atributos:
+> - Nome;
+> - Endereço.
+
+### BLOCO
+#### Atributos:
+> - Quantidade_salas
+> - 
+> - 
+> - 
+> - 
+> - 
+
+### SALA
+#### Atributos:
+> - 
+> - 
+> - 
+> - 
+> - 
+> - 
