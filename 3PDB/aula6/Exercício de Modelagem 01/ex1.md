@@ -14,23 +14,28 @@ __C)__ De cada sala é necessário saber quantas carteiras temos nela, sua área
 
 ### CAMPUS
 #### Atributos:
+> - ID_campus;
 > - Nome;
-> - Endereço.
+> - CEP.
 
 ### BLOCO
 #### Atributos:
-> - Quantidade_salas
-> - 
-> - 
-> - 
-> - 
-> - 
+> - ID_bloco;
+> - Quant_salas;
+> - Andares.
 
 ### SALA
 #### Atributos:
-> - 
-> - 
-> - 
-> - 
-> - 
-> - 
+> - ID_sala;
+> - Quant_carteiras;
+> - Area.
+
+### Carteira (tabela de apoio)
+#### Atributos:
+> - ID_carteira;
+> - Lado_braco.
+
+# Logical
+![alt text](assets/image2.png)
+# Relational
+![alt text](assets/image.png)
