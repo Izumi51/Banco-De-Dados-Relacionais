@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Localizada" directorySegmentName="seg_0" id="5120D4C9-254E-0A1D-42D5-B26854307593">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-09 12:19:33 UTC</createdTime>
+<ownerDesignName>Exercício de Modelagem 01</ownerDesignName>
+<engineerTo>
+<item key="AAD73FB0-D8C5-EEDB-560F-1C1A05D171ED" value="true"/>
+</engineerTo>
+<sourcePk>112CF71E-F2FF-67FC-3B8C-DDE03BC114A9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7AF3CD54-0324-FA6A-42D9-2F10CD36E08B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D33FDBB4-4236-183D-5B94-7A7C46B558EE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
