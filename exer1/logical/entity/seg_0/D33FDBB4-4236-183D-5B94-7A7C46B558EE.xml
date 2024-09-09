@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D33FDBB4-4236-183D-5B94-7A7C46B558EE" name="SALA">
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-09 12:02:15 UTC</createdTime>
-<ownerDesignName>Exercício de Modelagem 01</ownerDesignName>
+<ownerDesignName>exer1</ownerDesignName>
 <engineerTo>
 <item key="AAD73FB0-D8C5-EEDB-560F-1C1A05D171ED" value="true"/>
 </engineerTo>
@@ -18,7 +18,7 @@
 <Attribute name="ID_sala" id="6C1E6466-6460-B559-6D51-36D659FC972F">
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-09 12:15:01 UTC</createdTime>
-<ownerDesignName>Exercício de Modelagem 01</ownerDesignName>
+<ownerDesignName>exer1</ownerDesignName>
 <engineerTo>
 <item key="AAD73FB0-D8C5-EEDB-560F-1C1A05D171ED" value="true"/>
 </engineerTo>
@@ -30,7 +30,7 @@
 <Attribute name="Quant_carteiras" id="868B8B13-E093-9EAD-DCD7-9AC616C66C57">
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-09 12:15:21 UTC</createdTime>
-<ownerDesignName>Exercício de Modelagem 01</ownerDesignName>
+<ownerDesignName>exer1</ownerDesignName>
 <engineerTo>
 <item key="AAD73FB0-D8C5-EEDB-560F-1C1A05D171ED" value="true"/>
 </engineerTo>
@@ -43,7 +43,7 @@
 <Attribute name="Area" id="8D608D0D-B498-5CB1-BECB-3E86421AEC3B">
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-09 12:16:26 UTC</createdTime>
-<ownerDesignName>Exercício de Modelagem 01</ownerDesignName>
+<ownerDesignName>exer1</ownerDesignName>
 <engineerTo>
 <item key="AAD73FB0-D8C5-EEDB-560F-1C1A05D171ED" value="true"/>
 </engineerTo>
@@ -57,14 +57,14 @@
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-09 12:19:33 UTC</createdTime>
 <generatorID>5120D4C9-254E-0A1D-42D5-B26854307593</generatorID>
-<ownerDesignName>Exercício de Modelagem 01</ownerDesignName>
+<ownerDesignName>exer1</ownerDesignName>
 <engineerTo>
 <item key="AAD73FB0-D8C5-EEDB-560F-1C1A05D171ED" value="true"/>
 </engineerTo>
 <referedAttribute>446D3B64-9F39-D50C-F0EA-960C86D3AD9E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>1 CHAR</dataTypeSize>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
@@ -73,7 +73,7 @@
 <identifier id="D6E6D0D7-188F-DA85-9875-04D8C55ADCD2" name="SALA PK">
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-09 12:15:10 UTC</createdTime>
-<ownerDesignName>Exercício de Modelagem 01</ownerDesignName>
+<ownerDesignName>exer1</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="AAD73FB0-D8C5-EEDB-560F-1C1A05D171ED" value="false"/>

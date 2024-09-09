@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08E1D5DB-8957-0512-22DF-709B32E4F852" name="CAMPUS">
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-09 12:01:41 UTC</createdTime>
-<ownerDesignName>Exercício de Modelagem 01</ownerDesignName>
+<ownerDesignName>exer1</ownerDesignName>
 <engineerTo>
 <item key="AAD73FB0-D8C5-EEDB-560F-1C1A05D171ED" value="true"/>
 </engineerTo>
@@ -18,7 +18,7 @@
 <Attribute name="ID_campus" id="59DCD9ED-1FB1-98B8-A5CB-EA452682CF19">
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-09 12:03:25 UTC</createdTime>
-<ownerDesignName>Exercício de Modelagem 01</ownerDesignName>
+<ownerDesignName>exer1</ownerDesignName>
 <engineerTo>
 <item key="AAD73FB0-D8C5-EEDB-560F-1C1A05D171ED" value="true"/>
 </engineerTo>
@@ -30,7 +30,7 @@
 <Attribute name="Nome" id="BBEA63D8-297A-BEBB-D569-937CF900B4D7">
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-09 12:02:39 UTC</createdTime>
-<ownerDesignName>Exercício de Modelagem 01</ownerDesignName>
+<ownerDesignName>exer1</ownerDesignName>
 <engineerTo>
 <item key="AAD73FB0-D8C5-EEDB-560F-1C1A05D171ED" value="true"/>
 </engineerTo>
@@ -43,7 +43,7 @@
 <Attribute name="CEP" id="EB33E3B9-6A70-02D5-DB8E-CB66BE382D10">
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-09 12:03:56 UTC</createdTime>
-<ownerDesignName>Exercício de Modelagem 01</ownerDesignName>
+<ownerDesignName>exer1</ownerDesignName>
 <engineerTo>
 <item key="AAD73FB0-D8C5-EEDB-560F-1C1A05D171ED" value="true"/>
 </engineerTo>
@@ -57,7 +57,7 @@
 <identifier id="FAB84229-14B6-A383-5E41-58CD9A3BDCC9" name="CAMPUS PK">
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-09 12:03:27 UTC</createdTime>
-<ownerDesignName>Exercício de Modelagem 01</ownerDesignName>
+<ownerDesignName>exer1</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="AAD73FB0-D8C5-EEDB-560F-1C1A05D171ED" value="false"/>

@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08E1D5DB-8957-0512-22DF-709B32E4F852" name="CAMPUS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C147EE3-3D69-ECB5-0F4B-A309C9E5A2E7" name="CARTEIRA">
 <createdBy>alun23204708360001</createdBy>
-<createdTime>2024-09-09 12:01:41 UTC</createdTime>
-<ownerDesignName>Exercício de Modelagem 01</ownerDesignName>
+<createdTime>2024-09-09 12:13:20 UTC</createdTime>
+<ownerDesignName>exer1</ownerDesignName>
 <engineerTo>
 <item key="AAD73FB0-D8C5-EEDB-560F-1C1A05D171ED" value="true"/>
 </engineerTo>
@@ -15,10 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_campus" id="59DCD9ED-1FB1-98B8-A5CB-EA452682CF19">
+<Attribute name="ID_carteira" id="4BE8F6DB-F335-2530-BF86-37A761F3900B">
 <createdBy>alun23204708360001</createdBy>
-<createdTime>2024-09-09 12:03:25 UTC</createdTime>
-<ownerDesignName>Exercício de Modelagem 01</ownerDesignName>
+<createdTime>2024-09-09 12:17:00 UTC</createdTime>
+<ownerDesignName>exer1</ownerDesignName>
 <engineerTo>
 <item key="AAD73FB0-D8C5-EEDB-560F-1C1A05D171ED" value="true"/>
 </engineerTo>
@@ -27,26 +27,28 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nome" id="BBEA63D8-297A-BEBB-D569-937CF900B4D7">
+<Attribute name="Lado_braco" id="C8536944-B6D8-742A-3934-6A8E51868A82">
 <createdBy>alun23204708360001</createdBy>
-<createdTime>2024-09-09 12:02:39 UTC</createdTime>
-<ownerDesignName>Exercício de Modelagem 01</ownerDesignName>
+<createdTime>2024-09-09 12:17:10 UTC</createdTime>
+<ownerDesignName>exer1</ownerDesignName>
 <engineerTo>
 <item key="AAD73FB0-D8C5-EEDB-560F-1C1A05D171ED" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CEP" id="EB33E3B9-6A70-02D5-DB8E-CB66BE382D10">
+<Attribute name="ID_sala" id="DC5654E3-0E7A-C2DD-2014-9D524039DD90">
 <createdBy>alun23204708360001</createdBy>
-<createdTime>2024-09-09 12:03:56 UTC</createdTime>
-<ownerDesignName>Exercício de Modelagem 01</ownerDesignName>
+<createdTime>2024-09-09 12:19:49 UTC</createdTime>
+<generatorID>0AE54464-A274-08DC-84CA-00C4E0EF3804</generatorID>
+<ownerDesignName>exer1</ownerDesignName>
 <engineerTo>
 <item key="AAD73FB0-D8C5-EEDB-560F-1C1A05D171ED" value="true"/>
 </engineerTo>
+<referedAttribute>6C1E6466-6460-B559-6D51-36D659FC972F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -54,17 +56,17 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="FAB84229-14B6-A383-5E41-58CD9A3BDCC9" name="CAMPUS PK">
+<identifier id="1DC48554-E9D9-0174-7446-C84BA09DF4D3" name="CARTEIRA PK">
 <createdBy>alun23204708360001</createdBy>
-<createdTime>2024-09-09 12:03:27 UTC</createdTime>
-<ownerDesignName>Exercício de Modelagem 01</ownerDesignName>
+<createdTime>2024-09-09 12:17:08 UTC</createdTime>
+<ownerDesignName>exer1</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="AAD73FB0-D8C5-EEDB-560F-1C1A05D171ED" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>59DCD9ED-1FB1-98B8-A5CB-EA452682CF19</attributeRef>
+<attributeRef>4BE8F6DB-F335-2530-BF86-37A761F3900B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
