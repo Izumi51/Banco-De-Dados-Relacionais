@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2CA08C3-06F3-C735-D84C-38ACC69D3093" name="DANO">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>2F6F55CB-EE76-ADF7-67B4-BE3C3563386D</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idDano" id="8B0ED15E-B620-1228-CD15-0FE08CA5313D">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>357AFF4E-E4C7-E82F-DA53-900160335B74</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="C4096083-9BBE-011F-871A-92C6A087A903">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>A7F77E74-5198-E4CF-41B5-530D2B0DDAA1</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="869D3AA4-FF47-1DBB-6283-481AA7AD3441">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>21C8D213-9A53-6952-0196-ED294FD179C9</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ocorrencias" id="599169A9-9DE2-E6DE-B597-465FFBCD0CB5">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>CAE5E4C5-14B2-3F19-6B2A-A098F2699D86</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1800AC66-227C-56F6-93AF-F83559E58657" name="DANO_PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>6A312C40-8163-44EC-74FE-4104880CFCDC</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B0ED15E-B620-1228-CD15-0FE08CA5313D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

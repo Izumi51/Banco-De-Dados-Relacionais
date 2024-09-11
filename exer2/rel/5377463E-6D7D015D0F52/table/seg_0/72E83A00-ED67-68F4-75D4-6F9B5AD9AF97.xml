@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72E83A00-ED67-68F4-75D4-6F9B5AD9AF97" name="OCORRENCIA">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>73E38A90-5189-EF46-D4FD-9E45E05FD9B0</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idOcorrencia" id="F79AE442-1496-8A27-5C22-A2E87B511C05">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>A04FCF41-EAAE-062E-BB69-EDDEC6C5EEF8</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataOco" id="5FB1EC75-EC39-F08F-E867-DACE71731ABD">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>ADD8A7FD-BCD0-052C-706E-80BDB181031E</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="situacao" id="742C6A25-4D53-EBC6-B4BC-80E076E125DE">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>94BCC6BD-F789-D429-D6AD-2A1EB88FBE53</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DANO_idDano" id="B0AAE83F-035E-47D4-BA1D-55C2D4C92853">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>1751C8C2-1FA5-0B4C-20CE-6C401C7CA789</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="815D458C-A7F5-96D2-CD73-6B199E6C8797" referredColumn="8B0ED15E-B620-1228-CD15-0FE08CA5313D"/>
+</associations>
+</Column>
+<Column name="BEM_MOVEL_idBM" id="78E94C73-1856-777D-CC68-1004A9EA9FDB">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>3EF7C593-423B-9B86-D5B0-BB597696272A</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C64AB2CC-16F1-204C-7330-D4AC3AE737DD" referredColumn="E4F1E591-78D2-0087-A8CF-81DB636EA2E8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6D0E1EB-2ADC-AFE8-F2B1-485DF8A317FB" name="OCORRENCIA_PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>135EE246-E728-E773-1E3D-6C0A1DE01F47</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F79AE442-1496-8A27-5C22-A2E87B511C05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F891B787-B44C-4B6D-5454-F643EA693B13" name="OCORRENCIA_DANO_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>6D58C487-989C-E790-8465-526FC0E09D29</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0AAE83F-035E-47D4-BA1D-55C2D4C92853"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71B10995-8260-255F-54F2-7FE84FE11D9C" name="OCORRENCIA_BEM_MOVEL_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>47ECA0C1-98A7-A5F4-B1C7-0B279998E519</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78E94C73-1856-777D-CC68-1004A9EA9FDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

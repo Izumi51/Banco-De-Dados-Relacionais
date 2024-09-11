@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C64AB2CC-16F1-204C-7330-D4AC3AE737DD" containerWithKeyObject="72E83A00-ED67-68F4-75D4-6F9B5AD9AF97" localFKIndex="71B10995-8260-255F-54F2-7FE84FE11D9C" name="OCORRENCIA_BEM_MOVEL_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>47ECA0C1-98A7-A5F4-B1C7-0B279998E519</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<referredTableLongName>BEM_MOVEL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B1D9CF86-76F5-D88A-10FC-9108E1A6AAA0</referredTableID>
+<keyObject>361AC61A-7F29-A72B-5614-F131376C689A</keyObject>
+<referredKeyID>361AC61A-7F29-A72B-5614-F131376C689A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idBM</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1D9CF86-76F5-D88A-10FC-9108E1A6AAA0" name="BEM_MOVEL">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>B747BC36-557D-F16F-26A5-43CF642D848B</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idBM" id="E4F1E591-78D2-0087-A8CF-81DB636EA2E8">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>F41BAFFE-95D1-FB4F-696D-97818BB1E970</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="situacao" id="F9D5F8EE-91F1-E5A7-A271-1A8F9A2641C7">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>824837A6-7985-351F-3BD8-608146D372A8</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeDono" id="F4046A99-C62B-5D78-CCA5-AD392601C6CA">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>32ADA474-E240-C255-564D-3B769D86840A</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="054CB2D8-585F-1BBC-AB79-26A55580686B">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>3CE1CA1D-3AB6-C963-598F-7E497F31517A</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataCompra" id="3860F725-BD1C-6A96-B372-D3535EB2C059">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>EABBDE2F-CF4D-1532-CA3C-DBA89DA6A245</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor" id="795981E4-1E91-D0FA-90F5-F66DC27B5BCC">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>DC977572-C22E-205C-5CAE-00A5A5D2C57B</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SETOR_idSetor" id="84178EC4-EE24-32A3-07AB-57FF6D6BE490">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>7648F448-5821-20EB-B0AA-ED0C2050CC0A</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A80CD64F-D5B7-4BC0-BA58-16BEAF9EE7DE" referredColumn="20B91B48-C019-3B23-D3BD-D1DB1F8226C3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="361AC61A-7F29-A72B-5614-F131376C689A" name="BEM_MOVEL_PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>E484B8CE-3F90-DC83-6C4C-7C18857A5D7F</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4F1E591-78D2-0087-A8CF-81DB636EA2E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="814F140A-3998-D937-1B02-E6A08247557F" name="BEM_MOVEL_SETOR_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>74D5AA3B-503C-FF09-2F29-5AE4DB9E271B</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84178EC4-EE24-32A3-07AB-57FF6D6BE490"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

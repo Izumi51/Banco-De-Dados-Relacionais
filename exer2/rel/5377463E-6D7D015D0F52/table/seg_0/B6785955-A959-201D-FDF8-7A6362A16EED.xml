@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6785955-A959-201D-FDF8-7A6362A16EED" name="SETOR">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>23D65DD7-0648-0E78-97CF-44DB0EB7BA9E</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idSetor" id="20B91B48-C019-3B23-D3BD-D1DB1F8226C3">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>5D2A318A-83A9-F5FE-44AE-5024FB6C93AB</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="A11F0090-DDB1-591D-7B09-5698A0C70CB3">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>6945C25A-FD1C-45D1-D14D-E1C0F0E23A71</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTAMENTO_idDepartamento" id="F86FB6AC-75AA-9960-1638-F31B8368A9AD">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>F66AFA1A-7500-1B98-0A7B-6C36DFD8CC15</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37630096-E769-9B70-DB95-105BC71FE5BC" referredColumn="2FC5FF90-9C18-9DAA-5E02-4675058C10F8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC86A644-A6B4-DDDE-518F-B36A38D66C56" name="SETOR_PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>C989B85E-AED5-C5F6-4C7B-9D85A0347562</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20B91B48-C019-3B23-D3BD-D1DB1F8226C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A647943-37A9-38FE-F244-3EF248909392" name="SETOR_DEPARTAMENTO_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>2D3DEA2D-1660-2E57-A749-F8433D10BD9A</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F86FB6AC-75AA-9960-1638-F31B8368A9AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

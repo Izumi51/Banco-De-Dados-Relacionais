@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F6F55CB-EE76-ADF7-67B4-BE3C3563386D" name="DANO">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:01:25 UTC</createdTime>
+<ownerDesignName>exer2</ownerDesignName>
+<engineerTo>
+<item key="5377463E-F47E-DEAE-1426-6D7D015D0F52" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idDano" id="357AFF4E-E4C7-E82F-DA53-900160335B74">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:17:24 UTC</createdTime>
+<ownerDesignName>exer2</ownerDesignName>
+<engineerTo>
+<item key="5377463E-F47E-DEAE-1426-6D7D015D0F52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="A7F77E74-5198-E4CF-41B5-530D2B0DDAA1">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:17:36 UTC</createdTime>
+<ownerDesignName>exer2</ownerDesignName>
+<engineerTo>
+<item key="5377463E-F47E-DEAE-1426-6D7D015D0F52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="21C8D213-9A53-6952-0196-ED294FD179C9">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:18:04 UTC</createdTime>
+<ownerDesignName>exer2</ownerDesignName>
+<engineerTo>
+<item key="5377463E-F47E-DEAE-1426-6D7D015D0F52" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ocorrencias" id="CAE5E4C5-14B2-3F19-6B2A-A098F2699D86">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:18:20 UTC</createdTime>
+<ownerDesignName>exer2</ownerDesignName>
+<engineerTo>
+<item key="5377463E-F47E-DEAE-1426-6D7D015D0F52" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6A312C40-8163-44EC-74FE-4104880CFCDC" name="DANO PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:17:34 UTC</createdTime>
+<ownerDesignName>exer2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5377463E-F47E-DEAE-1426-6D7D015D0F52" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>357AFF4E-E4C7-E82F-DA53-900160335B74</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

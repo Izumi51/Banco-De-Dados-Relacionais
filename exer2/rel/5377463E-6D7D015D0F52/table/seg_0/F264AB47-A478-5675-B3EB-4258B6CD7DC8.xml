@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F264AB47-A478-5675-B3EB-4258B6CD7DC8" name="DEPARTAMENTO">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>1F0813FF-F505-1BFF-4866-AC03CDB27DA6</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idDepartamento" id="2FC5FF90-9C18-9DAA-5E02-4675058C10F8">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>165123E6-0D6E-BFFB-4F7D-BC825565FA3D</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC49A5C9-F21A-7451-F4F1-3A3B9057E8FD" name="DEPARTAMENTO_PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>A54E907D-3A7F-E985-8E9B-41A58D0D514F</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FC5FF90-9C18-9DAA-5E02-4675058C10F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

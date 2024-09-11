@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="815D458C-A7F5-96D2-CD73-6B199E6C8797" containerWithKeyObject="72E83A00-ED67-68F4-75D4-6F9B5AD9AF97" localFKIndex="F891B787-B44C-4B6D-5454-F643EA693B13" name="OCORRENCIA_DANO_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>6D58C487-989C-E790-8465-526FC0E09D29</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<referredTableLongName>DANO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B2CA08C3-06F3-C735-D84C-38ACC69D3093</referredTableID>
+<keyObject>1800AC66-227C-56F6-93AF-F83559E58657</keyObject>
+<referredKeyID>1800AC66-227C-56F6-93AF-F83559E58657</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idDano</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

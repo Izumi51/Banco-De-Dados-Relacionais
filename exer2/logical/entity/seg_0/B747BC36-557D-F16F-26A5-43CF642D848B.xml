@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B747BC36-557D-F16F-26A5-43CF642D848B" name="BEM_MOVEL">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:01:10 UTC</createdTime>
+<ownerDesignName>exer2</ownerDesignName>
+<engineerTo>
+<item key="5377463E-F47E-DEAE-1426-6D7D015D0F52" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idBM" id="F41BAFFE-95D1-FB4F-696D-97818BB1E970">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:13:19 UTC</createdTime>
+<ownerDesignName>exer2</ownerDesignName>
+<engineerTo>
+<item key="5377463E-F47E-DEAE-1426-6D7D015D0F52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="situacao" id="824837A6-7985-351F-3BD8-608146D372A8">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:13:51 UTC</createdTime>
+<ownerDesignName>exer2</ownerDesignName>
+<engineerTo>
+<item key="5377463E-F47E-DEAE-1426-6D7D015D0F52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeDono" id="32ADA474-E240-C255-564D-3B769D86840A">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:14:19 UTC</createdTime>
+<ownerDesignName>exer2</ownerDesignName>
+<engineerTo>
+<item key="5377463E-F47E-DEAE-1426-6D7D015D0F52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="3CE1CA1D-3AB6-C963-598F-7E497F31517A">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:14:36 UTC</createdTime>
+<ownerDesignName>exer2</ownerDesignName>
+<engineerTo>
+<item key="5377463E-F47E-DEAE-1426-6D7D015D0F52" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataCompra" id="EABBDE2F-CF4D-1532-CA3C-DBA89DA6A245">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:15:04 UTC</createdTime>
+<ownerDesignName>exer2</ownerDesignName>
+<engineerTo>
+<item key="5377463E-F47E-DEAE-1426-6D7D015D0F52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="DC977572-C22E-205C-5CAE-00A5A5D2C57B">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:15:31 UTC</createdTime>
+<ownerDesignName>exer2</ownerDesignName>
+<engineerTo>
+<item key="5377463E-F47E-DEAE-1426-6D7D015D0F52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idSetor" id="7648F448-5821-20EB-B0AA-ED0C2050CC0A">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:20:08 UTC</createdTime>
+<generatorID>74D5AA3B-503C-FF09-2F29-5AE4DB9E271B</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<engineerTo>
+<item key="5377463E-F47E-DEAE-1426-6D7D015D0F52" value="true"/>
+</engineerTo>
+<referedAttribute>5D2A318A-83A9-F5FE-44AE-5024FB6C93AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E484B8CE-3F90-DC83-6C4C-7C18857A5D7F" name="BEM_MOVEL PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:13:45 UTC</createdTime>
+<ownerDesignName>exer2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5377463E-F47E-DEAE-1426-6D7D015D0F52" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F41BAFFE-95D1-FB4F-696D-97818BB1E970</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

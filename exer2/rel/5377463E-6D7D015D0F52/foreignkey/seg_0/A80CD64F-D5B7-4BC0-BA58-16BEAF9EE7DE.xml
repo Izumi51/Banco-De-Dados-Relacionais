@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A80CD64F-D5B7-4BC0-BA58-16BEAF9EE7DE" containerWithKeyObject="B1D9CF86-76F5-D88A-10FC-9108E1A6AAA0" localFKIndex="814F140A-3998-D937-1B02-E6A08247557F" name="BEM_MOVEL_SETOR_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:22:10 UTC</createdTime>
+<generatorID>74D5AA3B-503C-FF09-2F29-5AE4DB9E271B</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<referredTableLongName>SETOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B6785955-A959-201D-FDF8-7A6362A16EED</referredTableID>
+<keyObject>DC86A644-A6B4-DDDE-518F-B36A38D66C56</keyObject>
+<referredKeyID>DC86A644-A6B4-DDDE-518F-B36A38D66C56</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idSetor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

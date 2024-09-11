@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="23D65DD7-0648-0E78-97CF-44DB0EB7BA9E" name="SETOR">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:01:03 UTC</createdTime>
+<ownerDesignName>exer2</ownerDesignName>
+<engineerTo>
+<item key="5377463E-F47E-DEAE-1426-6D7D015D0F52" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idSetor" id="5D2A318A-83A9-F5FE-44AE-5024FB6C93AB">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:02:30 UTC</createdTime>
+<ownerDesignName>exer2</ownerDesignName>
+<engineerTo>
+<item key="5377463E-F47E-DEAE-1426-6D7D015D0F52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="6945C25A-FD1C-45D1-D14D-E1C0F0E23A71">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:02:42 UTC</createdTime>
+<ownerDesignName>exer2</ownerDesignName>
+<engineerTo>
+<item key="5377463E-F47E-DEAE-1426-6D7D015D0F52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idDepartamento" id="F66AFA1A-7500-1B98-0A7B-6C36DFD8CC15">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:19:57 UTC</createdTime>
+<generatorID>2D3DEA2D-1660-2E57-A749-F8433D10BD9A</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<engineerTo>
+<item key="5377463E-F47E-DEAE-1426-6D7D015D0F52" value="true"/>
+</engineerTo>
+<referedAttribute>165123E6-0D6E-BFFB-4F7D-BC825565FA3D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C989B85E-AED5-C5F6-4C7B-9D85A0347562" name="SETOR PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-11 13:02:39 UTC</createdTime>
+<ownerDesignName>exer2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5377463E-F47E-DEAE-1426-6D7D015D0F52" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5D2A318A-83A9-F5FE-44AE-5024FB6C93AB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
