@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F4058BF-19D3-7C25-81E7-15BFB6DFCFC8" name="CAMPUS">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-09 12:20:06 UTC</createdTime>
+<generatorID>08E1D5DB-8957-0512-22DF-709B32E4F852</generatorID>
+<ownerDesignName>exer1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nome" id="A3E15C1D-ADF6-A3CD-7111-17D263796DA9">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-09 12:20:06 UTC</createdTime>
+<generatorID>BBEA63D8-297A-BEBB-D569-937CF900B4D7</generatorID>
+<ownerDesignName>exer1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idCampus" id="BC34034A-1642-D095-D59C-CE96794D923C">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-09 12:20:06 UTC</createdTime>
+<generatorID>59DCD9ED-1FB1-98B8-A5CB-EA452682CF19</generatorID>
+<ownerDesignName>exer1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="814C2E4F-BDF1-3C5B-395F-05691A0C5234">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-09 12:20:06 UTC</createdTime>
+<generatorID>EB33E3B9-6A70-02D5-DB8E-CB66BE382D10</generatorID>
+<ownerDesignName>exer1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1AB072B-8F5C-161B-2BB3-958FC2A846C6" name="CAMPUS_PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-09 12:20:06 UTC</createdTime>
+<generatorID>FAB84229-14B6-A383-5E41-58CD9A3BDCC9</generatorID>
+<ownerDesignName>exer1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC34034A-1642-D095-D59C-CE96794D923C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

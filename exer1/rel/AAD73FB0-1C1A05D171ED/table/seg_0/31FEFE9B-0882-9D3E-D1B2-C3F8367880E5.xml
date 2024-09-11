@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31FEFE9B-0882-9D3E-D1B2-C3F8367880E5" name="CARTEIRA">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-09 12:20:06 UTC</createdTime>
+<generatorID>0C147EE3-3D69-ECB5-0F4B-A309C9E5A2E7</generatorID>
+<ownerDesignName>exer1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCarteira" id="1C9597D2-E821-96D5-F4AF-A05347AD46AA">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-09 12:20:06 UTC</createdTime>
+<generatorID>4BE8F6DB-F335-2530-BF86-37A761F3900B</generatorID>
+<ownerDesignName>exer1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ladoBraco" id="F1598BB2-3A6E-B629-41A1-2C784836462C">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-09 12:20:06 UTC</createdTime>
+<generatorID>C8536944-B6D8-742A-3934-6A8E51868A82</generatorID>
+<ownerDesignName>exer1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALA_ID_sala" id="E6AAD418-1009-B3CD-698B-42D830DF7250">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-09 12:20:06 UTC</createdTime>
+<generatorID>DC5654E3-0E7A-C2DD-2014-9D524039DD90</generatorID>
+<ownerDesignName>exer1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F836AC6-939B-5F97-6B9C-12FF5F866956" referredColumn="25A4C768-30B1-E49A-90F4-B04611C4F335"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F8E9C8F-E4D2-6259-7054-F3FA4CF1E10F" name="CARTEIRA_PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-09 12:20:06 UTC</createdTime>
+<generatorID>1DC48554-E9D9-0174-7446-C84BA09DF4D3</generatorID>
+<ownerDesignName>exer1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C9597D2-E821-96D5-F4AF-A05347AD46AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1A236E7-B81B-ABF7-5ACA-94AF32EB7927" name="CARTEIRA_SALA_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-09 12:20:06 UTC</createdTime>
+<generatorID>0AE54464-A274-08DC-84CA-00C4E0EF3804</generatorID>
+<ownerDesignName>exer1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6AAD418-1009-B3CD-698B-42D830DF7250"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDA744C7-B023-2E2F-EFD7-40C3812DAA80" name="BLOCO">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-09 12:20:06 UTC</createdTime>
+<generatorID>7AF3CD54-0324-FA6A-42D9-2F10CD36E08B</generatorID>
+<ownerDesignName>exer1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idBloco" id="38BF6C43-EC7F-2296-EB75-1769AFBFF240">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-09 12:20:06 UTC</createdTime>
+<generatorID>446D3B64-9F39-D50C-F0EA-960C86D3AD9E</generatorID>
+<ownerDesignName>exer1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantSalas" id="49F122A1-CC2C-756A-52F1-67AB543E9446">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-09 12:20:06 UTC</createdTime>
+<generatorID>1EEDE9E4-9416-663D-F453-0CBBE3F602BD</generatorID>
+<ownerDesignName>exer1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="andares" id="6F755A10-0404-CEC5-BC4A-F86AF92F5E0C">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-09 12:20:06 UTC</createdTime>
+<generatorID>C9A6A8E5-D093-8175-9027-D0419B66F216</generatorID>
+<ownerDesignName>exer1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAMPUS_ID_campus" id="2FE7219F-A04E-8CB1-039D-8A485F4BBC26">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-09 12:20:06 UTC</createdTime>
+<generatorID>3B1599D8-57D3-C46F-9C55-60B7CDFF2165</generatorID>
+<ownerDesignName>exer1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCB14279-5CB7-891A-CC04-EC6DAC65E6BA" referredColumn="BC34034A-1642-D095-D59C-CE96794D923C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC910E0A-A8F9-D660-5416-8ACA672499FE" name="BLOCO_PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-09 12:20:06 UTC</createdTime>
+<generatorID>112CF71E-F2FF-67FC-3B8C-DDE03BC114A9</generatorID>
+<ownerDesignName>exer1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38BF6C43-EC7F-2296-EB75-1769AFBFF240"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41975970-DE96-59AA-409E-54DD88B4D271" name="BLOCO_CAMPUS_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-09 12:20:06 UTC</createdTime>
+<generatorID>C422AA0B-0CBD-C3CD-4A93-90CA03F49A82</generatorID>
+<ownerDesignName>exer1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FE7219F-A04E-8CB1-039D-8A485F4BBC26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
