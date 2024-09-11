@@ -28,30 +28,40 @@ __F)__ Dada a identificação de um tipo de dano informar: sua descrição e oco
 # ENTIDADES
 1. Departamento
 2. Setor
-3. 
+3. Bem Móvel
+4. Ocorrência
+5. Dano
 
-### 
+### Departamento
 #### Atributos:
-> - ;
-> - ;
-> - .
+> - sigla.
 
-### 
+### Setor
 #### Atributos:
-> - ;
-> - ;
-> - .
+> - sigla;
+> - nome.
 
-### 
+### Bem Móvel
 #### Atributos:
-> - ;
-> - ;
-> - .
+> - id(6 digitos);
+> - situação;
+> - nome do dono;
+> - descrição;
+> - data de compra;
+> - valor da compra.
 
-### 
+### Ocorrência
 #### Atributos:
-> - ;
-> - .
+> - id;
+> - data;
+> - situação.
+
+### Dano
+#### Atributos:
+> - id;
+> - tipo de dano;
+> - descrição;
+> - ocorrências causadas pelos mesmos.
 
 # Logical
 ![alt text]()

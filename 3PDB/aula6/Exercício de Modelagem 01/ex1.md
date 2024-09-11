@@ -16,7 +16,9 @@ __C)__ De cada sala é necessário saber quantas carteiras temos nela, sua área
 #### Atributos:
 > - ID_campus;
 > - Nome;
-> - CEP.
+> - CEP;
+> - numero;
+> - complemento.
 
 ### BLOCO
 #### Atributos:
