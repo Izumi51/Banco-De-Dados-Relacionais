@@ -72,6 +72,22 @@
 <colAssociation fkAssociation="C64AB2CC-16F1-204C-7330-D4AC3AE737DD" referredColumn="E4F1E591-78D2-0087-A8CF-81DB636EA2E8"/>
 </associations>
 </Column>
+<Column name="SETOR_idSetor" id="8C9D5A8B-CE45-8979-C6B9-9138CC58DFD6">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-16 12:56:59 UTC</createdTime>
+<generatorID>ED9F1122-E708-FF3D-1416-52CF8B80AF1D</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="431C5A57-DB58-6CD2-42DF-1B74F43D6AAC" referredColumn="20B91B48-C019-3B23-D3BD-D1DB1F8226C3"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E6D0E1EB-2ADC-AFE8-F2B1-485DF8A317FB" name="OCORRENCIA_PK">
@@ -106,6 +122,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="78E94C73-1856-777D-CC68-1004A9EA9FDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D225136-261F-2657-40DC-D5A63A09B309" name="OCORRENCIA_SETOR_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-16 12:56:59 UTC</createdTime>
+<generatorID>3B91DE4B-F3C1-D3C8-D14F-E31D5F53D48A</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C9D5A8B-CE45-8979-C6B9-9138CC58DFD6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

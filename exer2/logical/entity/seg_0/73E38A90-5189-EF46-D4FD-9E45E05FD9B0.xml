@@ -80,6 +80,21 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="idSetor" id="ED9F1122-E708-FF3D-1416-52CF8B80AF1D">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-16 12:56:51 UTC</createdTime>
+<generatorID>3B91DE4B-F3C1-D3C8-D14F-E31D5F53D48A</generatorID>
+<ownerDesignName>exer2</ownerDesignName>
+<engineerTo>
+<item key="5377463E-F47E-DEAE-1426-6D7D015D0F52" value="true"/>
+</engineerTo>
+<referedAttribute>5D2A318A-83A9-F5FE-44AE-5024FB6C93AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="135EE246-E728-E773-1E3D-6C0A1DE01F47" name="OCORRENCIA PK">
