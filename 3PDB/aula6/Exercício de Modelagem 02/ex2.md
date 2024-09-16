@@ -64,6 +64,6 @@ __F)__ Dada a identificação de um tipo de dano informar: sua descrição e oco
 > - ocorrências causadas pelos mesmos.
 
 # Logical
-![alt text]()
+![alt text](assets/image2.png)
 # Relational
-![alt text]()
+![alt text](assets/image.png)

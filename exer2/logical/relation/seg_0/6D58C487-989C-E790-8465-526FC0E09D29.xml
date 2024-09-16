@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="6D58C487-989C-E790-8465-526FC0E09D29">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OCORRENCIA DANO FK" directorySegmentName="seg_0" id="6D58C487-989C-E790-8465-526FC0E09D29">
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-11 13:21:23 UTC</createdTime>
 <ownerDesignName>exer2</ownerDesignName>

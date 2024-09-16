@@ -52,7 +52,7 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idDano" id="1751C8C2-1FA5-0B4C-20CE-6C401C7CA789">
+<Attribute name="DANO idDano" id="1751C8C2-1FA5-0B4C-20CE-6C401C7CA789">
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-11 13:21:23 UTC</createdTime>
 <generatorID>6D58C487-989C-E790-8465-526FC0E09D29</generatorID>
@@ -66,7 +66,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idBM" id="3EF7C593-423B-9B86-D5B0-BB597696272A">
+<Attribute name="BEM MOVEL idBM" id="3EF7C593-423B-9B86-D5B0-BB597696272A">
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-11 13:21:28 UTC</createdTime>
 <generatorID>47ECA0C1-98A7-A5F4-B1C7-0B279998E519</generatorID>
@@ -80,7 +80,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idSetor" id="ED9F1122-E708-FF3D-1416-52CF8B80AF1D">
+<Attribute name="SETOR idSetor" id="ED9F1122-E708-FF3D-1416-52CF8B80AF1D">
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-16 12:56:51 UTC</createdTime>
 <generatorID>3B91DE4B-F3C1-D3C8-D14F-E31D5F53D48A</generatorID>

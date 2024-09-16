@@ -41,7 +41,7 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idDepartamento" id="F66AFA1A-7500-1B98-0A7B-6C36DFD8CC15">
+<Attribute name="DEPARTAMENTO idDepartamento" id="F66AFA1A-7500-1B98-0A7B-6C36DFD8CC15">
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-11 13:19:57 UTC</createdTime>
 <generatorID>2D3DEA2D-1660-2E57-A749-F8433D10BD9A</generatorID>

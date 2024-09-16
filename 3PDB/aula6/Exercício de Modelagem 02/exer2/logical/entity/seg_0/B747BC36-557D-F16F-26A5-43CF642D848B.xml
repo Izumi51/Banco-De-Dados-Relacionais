@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B747BC36-557D-F16F-26A5-43CF642D848B" name="BEM MOVEL">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B747BC36-557D-F16F-26A5-43CF642D848B" name="BEM_MOVEL">
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-11 13:01:10 UTC</createdTime>
 <ownerDesignName>exer2</ownerDesignName>
@@ -91,7 +91,7 @@
 <logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SETOR idSetor" id="7648F448-5821-20EB-B0AA-ED0C2050CC0A">
+<Attribute name="idSetor" id="7648F448-5821-20EB-B0AA-ED0C2050CC0A">
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-11 13:20:08 UTC</createdTime>
 <generatorID>74D5AA3B-503C-FF09-2F29-5AE4DB9E271B</generatorID>
@@ -104,11 +104,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E484B8CE-3F90-DC83-6C4C-7C18857A5D7F" name="BEM_MOVEL_PK">
+<identifier id="E484B8CE-3F90-DC83-6C4C-7C18857A5D7F" name="BEM_MOVEL PK">
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-11 13:13:45 UTC</createdTime>
 <ownerDesignName>exer2</ownerDesignName>
