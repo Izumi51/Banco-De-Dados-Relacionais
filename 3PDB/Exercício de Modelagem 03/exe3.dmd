@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="exe3" id="F04CB33D-D523-0B62-A22D-134A51690083" version="3.5">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-23 12:46:08 UTC</createdTime>
+<ownerDesignName>exe3</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F04CB33D-D523-0B62-A22D-134A51690083</designId>
+</OSDM_Design>
