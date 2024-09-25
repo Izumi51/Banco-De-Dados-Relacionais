@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8BC10A12-7472-B8A0-E2C9-B06C622ECF1B" name="LEITOS">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>2E0194AC-D16D-23B5-D05C-605B2E645B5E</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idLeito" id="A6040D82-96D4-FC3B-D61F-E2491B53E1DB">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>828EE1E9-86BA-92DC-A380-B9CA713A470B</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numLeito" id="C2C75310-2828-B9D7-04E5-FEAD94F530A5">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>FC74537F-EC6C-5FC3-A086-1F0E2E474772</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="situacao" id="82E677D9-DC90-D4A2-0BA4-6335AD754D96">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>34CD657B-3A1E-ABE9-6067-BDA5A61FBEB8</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMODOS_idComodo" id="0EC2CC10-AB77-D62B-C1E6-3D1C604959DF">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>23F26736-AD3C-3949-9E3A-092F0ED96884</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="527E5D4A-81E3-7214-A19A-DB1FABA5D2C3" referredColumn="E95FCAC5-6BA0-B706-6562-8DA28BF2D8E3"/>
+</associations>
+</Column>
+<Column name="PACIENTES_codPac" id="22C52BE0-4BF6-6AA0-C889-1211D274E4F9">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>780E39FF-2385-12D5-932B-C0355A6D1FE6</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0652A4A-C235-04E2-BAC9-FB8F0A14057C" referredColumn="D2C3265C-E370-0C8A-DE54-8276BFD01920"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88980F39-958B-22F1-0DB4-0D9A6E23EF44" name="LEITOS_PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>99543035-203E-26C9-7767-713923DEC087</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6040D82-96D4-FC3B-D61F-E2491B53E1DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57283FD9-62AF-59E0-5E59-87E96C66B8F0" name="LEITOS__IDX">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<ownerDesignName>exe3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1959821D-5EC0-8E06-005F-C8856EA0753C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="22C52BE0-4BF6-6AA0-C889-1211D274E4F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D314B1AB-56D0-8BEE-A7A4-4DE9883B84AA" name="LEITOS_COMODOS_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>ABD6E34E-DA97-B4DB-75B3-49855713E92F</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EC2CC10-AB77-D62B-C1E6-3D1C604959DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26021858-7D41-E7BF-C37C-E46962A43EE6" name="LEITOS_PACIENTES_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>1959821D-5EC0-8E06-005F-C8856EA0753C</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22C52BE0-4BF6-6AA0-C889-1211D274E4F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

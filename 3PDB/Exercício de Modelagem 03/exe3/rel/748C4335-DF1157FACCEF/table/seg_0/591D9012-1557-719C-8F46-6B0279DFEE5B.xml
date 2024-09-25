@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="591D9012-1557-719C-8F46-6B0279DFEE5B" name="PLANOS">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>ACB21FD9-632F-BD6A-AC38-F21FCDFB907F</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codPlano" id="02AE9593-0271-9775-F8F7-6E4F350E4EBE">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>525AB82B-8FEB-D5F1-2C4D-520909A799ED</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomePlano" id="9C125765-8E1B-7ABF-3D22-CCFA3F266F85">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>8AD47A5A-683A-D83F-36CB-A6ED0D38F704</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PACIENTES_codPac" id="4B57DAFF-58CE-9790-4BFE-BFD5AEAB2ABC">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>02BEC3C4-C4ED-16B6-C933-0FDAD1A84CD8</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F145C14D-8F79-0227-24BC-22AE67468F77" referredColumn="D2C3265C-E370-0C8A-DE54-8276BFD01920"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4607C1E-0571-CEBC-BCB8-2FCC44DBF2F1" name="PLANOS_PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>95741572-C3F3-9A5F-C3CA-CCF49E00F5C7</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02AE9593-0271-9775-F8F7-6E4F350E4EBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="115E460F-E143-022D-6DF6-6E00956882A0" name="PLANOS_PACIENTES_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>10D1D538-E6BB-6168-170D-4F052E56F784</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B57DAFF-58CE-9790-4BFE-BFD5AEAB2ABC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

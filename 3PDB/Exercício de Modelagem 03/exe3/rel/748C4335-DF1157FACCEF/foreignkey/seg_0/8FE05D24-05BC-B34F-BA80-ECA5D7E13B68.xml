@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8FE05D24-05BC-B34F-BA80-ECA5D7E13B68" containerWithKeyObject="AED96F66-34C8-7C9F-AC69-A0F80056FB39" localFKIndex="BCFBF650-9A7C-D71A-6905-7B7557F1B36D" name="FUNCIONARIOS_ENFERMEIROS_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>4DB30142-4C65-B514-3B9F-F2A91FBA1B75</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<referredTableLongName>ENFERMEIROS</referredTableLongName>
+<arc>F615F4EE-F46E-FBAF-8A38-2D4707AD2631</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>85A2398E-CA76-97A9-9B12-7BF660AADCEC</referredTableID>
+<keyObject>77023339-F7A3-2E62-D00B-117C9FC202C0</keyObject>
+<referredKeyID>77023339-F7A3-2E62-D00B-117C9FC202C0</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>matricula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

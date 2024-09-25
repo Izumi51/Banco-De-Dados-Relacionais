@@ -27,20 +27,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tipo" id="A2FE010A-170E-798E-A676-1A371398F786">
-<createdBy>alun23204708360001</createdBy>
-<createdTime>2024-09-23 13:18:57 UTC</createdTime>
-<commentInRDBMS><![CDATA[(Apartamento (1 leito) Quarto (2 leitos) e Enfermagem (5 leitos))]]></commentInRDBMS>
-<ownerDesignName>exe3</ownerDesignName>
-<engineerTo>
-<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="situacao" id="E15385E2-1D31-047F-C78D-B1080FA34906">
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-23 13:19:32 UTC</createdTime>
@@ -60,8 +46,9 @@
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-23 13:18:53 UTC</createdTime>
 <ownerDesignName>exe3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="true"/>
+<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

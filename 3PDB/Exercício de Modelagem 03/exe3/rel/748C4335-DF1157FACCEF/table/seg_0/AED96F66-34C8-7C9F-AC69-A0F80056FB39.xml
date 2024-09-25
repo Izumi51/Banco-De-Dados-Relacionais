@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AED96F66-34C8-7C9F-AC69-A0F80056FB39" name="FUNCIONARIOS">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>5E38C7BD-B6D3-CD19-49F8-EF66FA052750</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="matricula" id="E361FB24-B0A6-F7B6-55C3-B9D9E2FCDF24">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>449BABDB-6E92-61A0-86AD-5F156D819545</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="A7D80D3C-B442-BA38-AFB1-7A67ECF4058C">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>500F4C8A-F0CD-4988-4720-63C9AFC22677</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="3EB21AEC-3700-CCD2-AB53-76BBB5368742">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>CEAC06CC-7DFC-6081-4CCA-32BC8619789D</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="celular" id="7E301E3A-0C15-7440-1A50-CAC136C5E58D">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>D551E22F-800C-CC3E-40B2-438A052C13A2</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula1" id="51D7E872-6296-0B48-2B7B-6C68E266243D">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<ownerDesignName>exe3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FE05D24-05BC-B34F-BA80-ECA5D7E13B68" referredColumn="E44F9654-01BA-61F3-B9B9-301E1DCB3E04"/>
+</associations>
+</Column>
+<Column name="matricula3" id="0A6CC65F-17FF-D20A-DD62-31A596040D7C">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E76D1264-C1BB-5D32-97A3-3E758B99BD50" referredColumn="97DA4083-0E8D-97D3-233B-1251F2D571E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90C27338-0AF8-0740-9818-706B50C2FD0C" name="FUNCIONARIOS_PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>FEB986C0-0702-37A8-55C3-419A88698CDA</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A6CC65F-17FF-D20A-DD62-31A596040D7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCFBF650-9A7C-D71A-6905-7B7557F1B36D" name="FUNCIONARIOS_ENFERMEIROS_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>4DB30142-4C65-B514-3B9F-F2A91FBA1B75</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51D7E872-6296-0B48-2B7B-6C68E266243D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72B95E88-5A12-BE12-DF49-F394F6392DF5" name="FUNCIONARIOS_MEDICOS_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>A9CEF4CC-0CB3-FAF1-1562-FB2F20AE5117</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A6CC65F-17FF-D20A-DD62-31A596040D7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

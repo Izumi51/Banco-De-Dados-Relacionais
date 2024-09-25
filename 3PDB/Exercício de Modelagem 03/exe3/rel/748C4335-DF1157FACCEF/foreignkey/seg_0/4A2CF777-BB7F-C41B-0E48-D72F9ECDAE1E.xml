@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4A2CF777-BB7F-C41B-0E48-D72F9ECDAE1E" containerWithKeyObject="33ED118A-7495-76E1-5A9C-CED93CB4146A" localFKIndex="A1CB3B59-0928-C2F1-3AA3-D5963EFAEA8D" name="ESCALA_COMODOS_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>C291E376-508C-56F7-6EB8-D814E458F721</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<referredTableLongName>COMODOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C64A656E-C19B-046C-68FB-3DF70A51BB74</referredTableID>
+<keyObject>0DB630D6-EC66-E26E-CF0C-7E98B79D17BB</keyObject>
+<referredKeyID>0DB630D6-EC66-E26E-CF0C-7E98B79D17BB</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>idComodo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -14,4 +14,112 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codPac" id="619A65C3-C68B-1C3D-BB88-E8029A78A651">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 12:32:49 UTC</createdTime>
+<ownerDesignName>exe3</ownerDesignName>
+<engineerTo>
+<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="646D35A0-E6F5-3519-0630-6ACA76F40E54">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 12:33:10 UTC</createdTime>
+<ownerDesignName>exe3</ownerDesignName>
+<engineerTo>
+<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nascimento" id="2215CA44-6800-294F-C1EB-C18B77F856AF">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 12:33:31 UTC</createdTime>
+<ownerDesignName>exe3</ownerDesignName>
+<engineerTo>
+<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="7EACA671-F64E-8C95-F980-CC2BE6B5E9F8">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 12:34:09 UTC</createdTime>
+<ownerDesignName>exe3</ownerDesignName>
+<engineerTo>
+<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataEntrada" id="A81CF8CF-B3FE-7E6A-A93B-9E94D4733479">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 12:34:27 UTC</createdTime>
+<ownerDesignName>exe3</ownerDesignName>
+<engineerTo>
+<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dateSaida" id="40854F04-7605-A6B3-7D12-509737FADF81">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 12:34:57 UTC</createdTime>
+<ownerDesignName>exe3</ownerDesignName>
+<engineerTo>
+<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="crm" id="8BCC211B-13CD-CC83-05DB-CD90E691286E">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 12:52:24 UTC</createdTime>
+<generatorID>34DBFC2E-99E5-24B0-2DB0-59B63EC6C5F5</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<engineerTo>
+<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0D261433-EF29-63A7-1601-896088CA92D3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="522C1385-C722-4CBD-1E83-FD5D45D7AB87" name="PACIENTES PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 12:33:02 UTC</createdTime>
+<ownerDesignName>exe3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>619A65C3-C68B-1C3D-BB88-E8029A78A651</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C64A656E-C19B-046C-68FB-3DF70A51BB74" name="COMODOS">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>5D59BDD0-EE1C-B6AB-43B4-162E99AAFC38</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idComodo" id="E95FCAC5-6BA0-B706-6562-8DA28BF2D8E3">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>D29A0701-0FAB-D664-D2DE-296A2634905B</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="situacao" id="225A9237-E2A2-CCAB-63D9-183FBC35F65A">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>E15385E2-1D31-047F-C78D-B1080FA34906</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_TIPO_ID" id="3DA673CB-C7D2-732B-3819-62ADFD17F8F0">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<ownerDesignName>exe3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72F6DA71-D76B-A030-C018-B4683123FE17" referredColumn="5BAD3A74-12C1-7000-5041-FA87F0D88334"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0DB630D6-EC66-E26E-CF0C-7E98B79D17BB" name="COMODOS_PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>125445C1-4D6D-48A6-7E0D-D2ED62AE051F</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E95FCAC5-6BA0-B706-6562-8DA28BF2D8E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A829399B-1618-D952-828B-7B11F798D21A" name="COMODOS_TIPO_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>36259E25-2789-1D6F-0CF3-5748F0C18CF0</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DA673CB-C7D2-732B-3819-62ADFD17F8F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44D2B28B-64E2-CBA9-7287-E82628607913" name="MEDICOS">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>FF72354D-4242-3E52-F762-94F689DBD487</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="matricula" id="97DA4083-0E8D-97D3-233B-1251F2D571E4">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>449BABDB-6E92-61A0-86AD-5F156D819545</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="crm" id="B7B4404C-7E6A-AB8E-D46B-BACE6753002E">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>0D261433-EF29-63A7-1601-896088CA92D3</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="especialidade" id="EB1C3EA7-CDFA-0E66-472C-5529946D8D8B">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>B3813C38-A286-7909-80D8-7F56746E096E</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="4C474C9D-887F-2DB8-486E-57ACD855BAC4">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:30:51 UTC</createdTime>
+<generatorID>500F4C8A-F0CD-4988-4720-63C9AFC22677</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="341317ED-4931-B9A5-3F33-4583E02E5636">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:30:51 UTC</createdTime>
+<generatorID>CEAC06CC-7DFC-6081-4CCA-32BC8619789D</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="celular" id="DDA7361B-DD4C-4C8F-CF95-16B0087C77E0">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:30:51 UTC</createdTime>
+<generatorID>D551E22F-800C-CC3E-40B2-438A052C13A2</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6930A8F-9A56-E49C-7EDA-C0D62FB7BC96" name="MEDICOS_PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>FEB986C0-0702-37A8-55C3-419A88698CDA</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97DA4083-0E8D-97D3-233B-1251F2D571E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="579731A3-5CA2-7A05-C726-241173007225" name="MEDICOS_PKv1">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>F8682CFE-B5B3-594C-9130-43CA8446E901</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7B4404C-7E6A-AB8E-D46B-BACE6753002E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

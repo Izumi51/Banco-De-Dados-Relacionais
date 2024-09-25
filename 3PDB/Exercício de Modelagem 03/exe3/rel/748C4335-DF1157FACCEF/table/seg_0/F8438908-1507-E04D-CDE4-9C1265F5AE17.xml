@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8438908-1507-E04D-CDE4-9C1265F5AE17" name="ESPECIALIDADE">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:30:51 UTC</createdTime>
+<generatorID>5518F10A-34D3-17A4-E0F2-49C305B3391B</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEspec" id="3841D46C-3C1B-DC9F-BEAB-1B4A400226EE">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:30:51 UTC</createdTime>
+<generatorID>1B304D6D-6128-C088-8CEF-E02DE69DDC56</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeEspec" id="DB59C5A5-2CCA-BB95-0EB9-1B8A3D0445D4">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:30:51 UTC</createdTime>
+<generatorID>3F159B42-B52B-3176-D4E8-8A5B29DBFA88</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="137B403E-8D24-0087-41EF-C7F515AAFF61">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:30:51 UTC</createdTime>
+<generatorID>8AF3EB0C-FF33-CCEC-75BA-8A0DA8DC6239</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEDICOS_crm" id="31F773D5-1ACE-25C2-E855-A189586A62AA">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:30:51 UTC</createdTime>
+<generatorID>8DAD6A9D-41A7-CBEF-9379-DFCA1A3C9726</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="955E4EE7-2259-9FD2-79B5-2D464DAF466E" referredColumn="B7B4404C-7E6A-AB8E-D46B-BACE6753002E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6790CED-7D86-44E8-B559-3172C757792D" name="ESPECIALIDADE_PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:30:51 UTC</createdTime>
+<generatorID>638E018F-96EB-8519-D7C3-0B15652DBEF1</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3841D46C-3C1B-DC9F-BEAB-1B4A400226EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B99FB1EA-352C-7CE4-C891-2984BFC2DA90" name="ESPECIALIDADE_MEDICOS_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:30:51 UTC</createdTime>
+<generatorID>15317283-6ACB-6489-3671-0490F246F363</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31F773D5-1ACE-25C2-E855-A189586A62AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

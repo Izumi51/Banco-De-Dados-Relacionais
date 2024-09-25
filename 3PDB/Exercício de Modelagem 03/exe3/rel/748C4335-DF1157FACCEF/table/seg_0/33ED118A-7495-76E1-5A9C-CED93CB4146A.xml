@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33ED118A-7495-76E1-5A9C-CED93CB4146A" name="ESCALA">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>87BFB468-804B-0C06-023D-18D2DD85C471</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEscala" id="4707E407-96DB-1B32-EE3B-47C975C889BE">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>F9EABD2C-009D-479E-96D7-BF30A38DC8BE</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mesEscala" id="2C7665B6-6981-1936-7CC1-1E871AA2F182">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>4F48320A-428C-6A1C-E48C-249B8377E15C</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMODOS_idComodo" id="4DF4B906-4EED-AB0B-97A2-44DDD9BF51D1">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>5AD5A3A0-46D6-FC45-04BD-04C7D6E18DD4</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A2CF777-BB7F-C41B-0E48-D72F9ECDAE1E" referredColumn="E95FCAC5-6BA0-B706-6562-8DA28BF2D8E3"/>
+</associations>
+</Column>
+<Column name="ENFERMEIROS_cre" id="416AC568-C843-19BE-5F54-B82CA49225D7">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>13C58022-16C0-6A41-5DBF-FC4C0D0D6FCA</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A569EDF5-CEF7-E6D1-4A3B-7BEE7A02F9D2" referredColumn="ABE3D010-1F10-D501-2469-EE5E08566D83"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="293A5977-43E9-2F55-B322-E0554532B1CB" name="ESCALA_PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>69C4CCE4-DA82-6DDC-A891-F2D474771E8C</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4707E407-96DB-1B32-EE3B-47C975C889BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1CB3B59-0928-C2F1-3AA3-D5963EFAEA8D" name="ESCALA_COMODOS_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>C291E376-508C-56F7-6EB8-D814E458F721</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DF4B906-4EED-AB0B-97A2-44DDD9BF51D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EF5B94B-B2FD-3A14-84D6-A5A2539816BE" name="ESCALA_ENFERMEIROS_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>8493D34B-45DD-D309-ED9B-4FE7444F493E</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="416AC568-C843-19BE-5F54-B82CA49225D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

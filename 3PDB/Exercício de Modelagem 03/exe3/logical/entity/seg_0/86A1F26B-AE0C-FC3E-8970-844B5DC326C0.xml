@@ -11,6 +11,7 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
+<hierarchicalParent>5E38C7BD-B6D3-CD19-49F8-EF66FA052750</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
@@ -35,6 +36,21 @@
 <item key="748C4335-1515-3204-484C-DF1157FACCEF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cre1" id="7B9F7898-0100-F122-35E9-F8924B4EBA26">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 12:48:38 UTC</createdTime>
+<generatorID>7F1DBD53-D9E6-3F83-0A54-766D1854393E</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<engineerTo>
+<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>439D1055-C101-1EFC-BEE4-5505C9B82164</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

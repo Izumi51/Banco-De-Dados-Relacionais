@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85A2398E-CA76-97A9-9B12-7BF660AADCEC" name="ENFERMEIROS">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>86A1F26B-AE0C-FC3E-8970-844B5DC326C0</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="matricula" id="E44F9654-01BA-61F3-B9B9-301E1DCB3E04">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>449BABDB-6E92-61A0-86AD-5F156D819545</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cre" id="ABE3D010-1F10-D501-2469-EE5E08566D83">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>439D1055-C101-1EFC-BEE4-5505C9B82164</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idSupervisor" id="9FD8337E-43CB-472E-38B0-796AF5395B97">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>1AEA79B5-C035-10CD-163C-4AF7030D24C2</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENFERMEIROS_cre" id="FAF37EBB-0088-CB6C-6AE6-B618D5290047">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>7B9F7898-0100-F122-35E9-F8924B4EBA26</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71A2B059-E611-F0DB-89BE-EB7B1FEBF395" referredColumn="ABE3D010-1F10-D501-2469-EE5E08566D83"/>
+</associations>
+</Column>
+<Column name="nome" id="F6317F6E-8D98-7581-8110-152A00766895">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:30:51 UTC</createdTime>
+<generatorID>500F4C8A-F0CD-4988-4720-63C9AFC22677</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="2CEB3298-031E-C6CD-9AF1-67568CA1C5D8">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:30:51 UTC</createdTime>
+<generatorID>CEAC06CC-7DFC-6081-4CCA-32BC8619789D</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="celular" id="C8F8383F-0C04-E1AB-60BF-92D43D5EC594">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:30:51 UTC</createdTime>
+<generatorID>D551E22F-800C-CC3E-40B2-438A052C13A2</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77023339-F7A3-2E62-D00B-117C9FC202C0" name="ENFERMEIROS_PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>FEB986C0-0702-37A8-55C3-419A88698CDA</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E44F9654-01BA-61F3-B9B9-301E1DCB3E04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="715ACE97-CD2B-B21D-A24C-8788F67C2E69" name="ENFERMEIROS_PKv1">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>DE58B2B7-E8C0-79D0-0526-FF01D33EDFA8</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABE3D010-1F10-D501-2469-EE5E08566D83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B1421BD-3A20-E524-C7B8-789A16C09F86" name="ENFERMEIROS_ENFERMEIROS_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>7F1DBD53-D9E6-3F83-0A54-766D1854393E</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAF37EBB-0088-CB6C-6AE6-B618D5290047"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

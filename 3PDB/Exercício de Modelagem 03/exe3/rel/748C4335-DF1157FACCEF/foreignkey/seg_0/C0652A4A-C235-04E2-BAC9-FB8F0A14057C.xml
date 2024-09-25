@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C0652A4A-C235-04E2-BAC9-FB8F0A14057C" containerWithKeyObject="8BC10A12-7472-B8A0-E2C9-B06C622ECF1B" localFKIndex="26021858-7D41-E7BF-C37C-E46962A43EE6" name="LEITOS_PACIENTES_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>1959821D-5EC0-8E06-005F-C8856EA0753C</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<referredTableLongName>PACIENTES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F6F3D9F8-F2E8-3184-CDA5-0B3A0680A657</referredTableID>
+<keyObject>E75869D0-06C5-6AC9-F6A5-D778530BD304</keyObject>
+<referredKeyID>E75869D0-06C5-6AC9-F6A5-D778530BD304</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codPac</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

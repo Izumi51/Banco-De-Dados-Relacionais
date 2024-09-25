@@ -14,4 +14,61 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codPlano" id="525AB82B-8FEB-D5F1-2C4D-520909A799ED">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 12:36:12 UTC</createdTime>
+<ownerDesignName>exe3</ownerDesignName>
+<engineerTo>
+<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomePlano" id="8AD47A5A-683A-D83F-36CB-A6ED0D38F704">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 12:36:28 UTC</createdTime>
+<ownerDesignName>exe3</ownerDesignName>
+<engineerTo>
+<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codPac" id="02BEC3C4-C4ED-16B6-C933-0FDAD1A84CD8">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 12:53:49 UTC</createdTime>
+<generatorID>10D1D538-E6BB-6168-170D-4F052E56F784</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<engineerTo>
+<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>619A65C3-C68B-1C3D-BB88-E8029A78A651</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="95741572-C3F3-9A5F-C3CA-CCF49E00F5C7" name="PLANOS PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 12:36:24 UTC</createdTime>
+<ownerDesignName>exe3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>525AB82B-8FEB-D5F1-2C4D-520909A799ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

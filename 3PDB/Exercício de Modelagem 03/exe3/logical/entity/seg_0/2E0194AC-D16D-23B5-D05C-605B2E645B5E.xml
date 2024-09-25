@@ -14,4 +14,87 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idLeito" id="828EE1E9-86BA-92DC-A380-B9CA713A470B">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 12:30:08 UTC</createdTime>
+<ownerDesignName>exe3</ownerDesignName>
+<engineerTo>
+<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numLeito" id="FC74537F-EC6C-5FC3-A086-1F0E2E474772">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 12:58:15 UTC</createdTime>
+<ownerDesignName>exe3</ownerDesignName>
+<engineerTo>
+<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="situacao" id="34CD657B-3A1E-ABE9-6067-BDA5A61FBEB8">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 12:30:22 UTC</createdTime>
+<ownerDesignName>exe3</ownerDesignName>
+<engineerTo>
+<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idComodo" id="23F26736-AD3C-3949-9E3A-092F0ED96884">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 12:40:22 UTC</createdTime>
+<generatorID>ABD6E34E-DA97-B4DB-75B3-49855713E92F</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<engineerTo>
+<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D29A0701-0FAB-D664-D2DE-296A2634905B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codPac" id="780E39FF-2385-12D5-932B-C0355A6D1FE6">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 12:41:42 UTC</createdTime>
+<generatorID>1959821D-5EC0-8E06-005F-C8856EA0753C</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<engineerTo>
+<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="true"/>
+</engineerTo>
+<referedAttribute>619A65C3-C68B-1C3D-BB88-E8029A78A651</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99543035-203E-26C9-7767-713923DEC087" name="LEITOS PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 12:30:20 UTC</createdTime>
+<ownerDesignName>exe3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="748C4335-1515-3204-484C-DF1157FACCEF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>828EE1E9-86BA-92DC-A380-B9CA713A470B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

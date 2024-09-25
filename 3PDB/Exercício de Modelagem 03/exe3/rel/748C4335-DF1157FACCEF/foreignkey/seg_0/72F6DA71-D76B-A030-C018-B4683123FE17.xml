@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="72F6DA71-D76B-A030-C018-B4683123FE17" containerWithKeyObject="C64A656E-C19B-046C-68FB-3DF70A51BB74" localFKIndex="A829399B-1618-D952-828B-7B11F798D21A" name="COMODOS_TIPO_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-09-25 13:06:44 UTC</createdTime>
+<generatorID>36259E25-2789-1D6F-0CF3-5748F0C18CF0</generatorID>
+<ownerDesignName>exe3</ownerDesignName>
+<referredTableLongName>TIPO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>434695A8-FC29-080B-A418-1D59D9E269E6</referredTableID>
+<keyObject>440993A8-FDC1-9BB6-47D7-F6A644638655</keyObject>
+<referredKeyID>440993A8-FDC1-9BB6-47D7-F6A644638655</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>TIPO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

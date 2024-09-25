@@ -18,6 +18,7 @@
 <Attribute name="tipo" id="B1AE1138-688E-E7D8-CFD6-2032EB965193">
 <createdBy>alun23204708360001</createdBy>
 <createdTime>2024-09-23 13:38:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[(Apartamento (1 leito) Quarto (2 leitos) e Enfermagem (5 leitos))]]></commentInRDBMS>
 <ownerDesignName>exe3</ownerDesignName>
 <engineerTo>
 <item key="748C4335-1515-3204-484C-DF1157FACCEF" value="true"/>
