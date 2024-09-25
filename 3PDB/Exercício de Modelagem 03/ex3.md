@@ -126,3 +126,8 @@ para contato).
 ### historico
 #### Atributos
 > - 
+
+# Logical
+![alt text](assets/Logical.png)
+# Relational
+![alt text](assets/Relational_1.png)
