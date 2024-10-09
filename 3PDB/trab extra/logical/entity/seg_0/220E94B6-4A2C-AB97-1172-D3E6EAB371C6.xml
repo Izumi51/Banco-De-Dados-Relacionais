@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="220E94B6-4A2C-AB97-1172-D3E6EAB371C6" name="PESSOA_JURIDICA">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 13:10:34 UTC</createdTime>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cnpj" id="01C44D8B-2698-E27A-8107-9B723D1A27CE">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 13:10:47 UTC</createdTime>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="inscrEstadual" id="2DC0398F-A86B-BF0D-C2A4-A2E89D474FD6">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 13:10:54 UTC</createdTime>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04B9F856-4A94-37DB-1A6A-EA3644927544" name="PESSOA_JURIDICA PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 13:11:02 UTC</createdTime>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>01C44D8B-2698-E27A-8107-9B723D1A27CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

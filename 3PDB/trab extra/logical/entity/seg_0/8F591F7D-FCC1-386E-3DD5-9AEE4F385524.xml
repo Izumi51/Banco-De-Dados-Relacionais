@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F591F7D-FCC1-386E-3DD5-9AEE4F385524" name="PESSOA_FISICA">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 12:33:29 UTC</createdTime>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="1F938578-9A2E-DFB6-F26A-8B5186D98D29">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 12:51:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cadastro de Pessoa Física do cliente]]></commentInRDBMS>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="celular" id="73EE6D87-8D30-D2CF-1E08-FC7F5BC120D3">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 12:51:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número do celular do cliente com 11 posições:
+· Duas posições iniciais para o código DDD;
+· Nove posições restantes para o número.]]></commentInRDBMS>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="D409FC7C-A6D7-6C57-99E4-D2330947B45D">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 12:52:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Endereço de e-mail do cliente (se houver).]]></commentInRDBMS>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estadoCivil" id="01CFD0ED-6FB7-4DB5-BA96-9099B9E27621">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 12:52:58 UTC</createdTime>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="C" description="Casado(a)"/>
+<valueDef value="D" description="Divorciado(a)"/>
+<valueDef value="S" description="Solteiro(a)"/>
+<valueDef value="V" description="Viuvo(a)"/>
+<valueDef value="X" description="Separado(a)"/>
+</listOfValues>
+<defaultValue>S</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="54DD296E-0917-D22C-D2B6-E92C81D7E0E6" name="PESSOA_FISICA PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 12:51:28 UTC</createdTime>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F938578-9A2E-DFB6-F26A-8B5186D98D29</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

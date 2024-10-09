@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pessoa Conta" directorySegmentName="seg_0" id="8E6B92D8-8B1C-8D16-849C-E952E5708C75">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 13:22:33 UTC</createdTime>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6A3DA7FC-F269-F0C2-BA37-C75A3109DEBA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>90B920EB-380D-3CDD-B96A-4889E64A3B9C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="titularidade" id="F2E15B58-6981-0131-16C7-B4A4E4A46490">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 13:23:17 UTC</createdTime>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<constraintName>ck titularidade</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="Correntista Adicional"/>
+<valueDef value="T" description="Correntista Titular"/>
+</listOfValues>
+<defaultValue>T</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

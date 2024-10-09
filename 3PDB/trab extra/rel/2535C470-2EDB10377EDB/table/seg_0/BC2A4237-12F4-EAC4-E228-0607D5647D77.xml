@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC2A4237-12F4-EAC4-E228-0607D5647D77" name="CONTA_COMUM">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 12:39:54 UTC</createdTime>
+<generatorID>5C07B8A8-FEC4-E3E1-ED6E-D2C23FB098E1</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+</Table>

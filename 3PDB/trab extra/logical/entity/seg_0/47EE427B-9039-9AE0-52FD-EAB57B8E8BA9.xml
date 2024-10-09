@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47EE427B-9039-9AE0-52FD-EAB57B8E8BA9" name="CONTA_POUPANCA">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 12:39:24 UTC</createdTime>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dataAniversario" id="480249A6-A0EF-A0B7-8A1F-EFC42AF9D5AB">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 13:06:51 UTC</createdTime>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

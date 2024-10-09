@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="90B920EB-380D-3CDD-B96A-4889E64A3B9C" name="CONTA_COMUM">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 12:33:44 UTC</createdTime>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nroConta" id="EB42A0F9-DF7E-5CFF-3A92-2DCA6B87F66A">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 12:55:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número da conta corrente.]]></commentInRDBMS>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codAgencia" id="7E29B5F5-A297-A464-433B-416BD3118B64">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 12:56:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código da agência associada à conta corrente.]]></commentInRDBMS>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoConta" id="736BE73B-A7B8-A4EA-8BE2-A9FE1CC621FE">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 12:56:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indica o tipo de conta que será criada (comum,especial ou poupança).]]></commentInRDBMS>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<listOfValues>
+<valueDef value="1" description="Conta Comum"/>
+<valueDef value="2" description="Conta Especial"/>
+<valueDef value="3" description="Conta Poupança"/>
+</listOfValues>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataAbertura" id="87A11101-AB0D-C89E-9B18-D93D600A47C3">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 12:58:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de abertura da conta.]]></commentInRDBMS>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataEncerramento" id="9B7F8A5F-7B8F-CBD9-D623-21A9EBC432AB">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 13:00:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de encerramento da conta.]]></commentInRDBMS>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="situacaoConta" id="89876207-31DB-AB40-D682-E4F599935BC1">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 13:01:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indica se a conta está ativa ou não no sistema.]]></commentInRDBMS>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="0" description="Inativa"/>
+<valueDef value="1" description="Ativa"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="senha" id="87BF297F-675A-5D14-C84C-AD620FE232E2">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 13:01:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Senha para acesso à conta.]]></commentInRDBMS>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="saldo" id="F97522EE-A315-8204-B675-6A410C08FE9B">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 13:02:34 UTC</createdTime>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99A595E1-550A-F3B6-4EA9-DE223C114476" name="PESSOA_JURIDICA PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 12:56:06 UTC</createdTime>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB42A0F9-DF7E-5CFF-3A92-2DCA6B87F66A</attributeRef>
+<attributeRef>7E29B5F5-A297-A464-433B-416BD3118B64</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
