@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0C777B2-3D6D-16DC-5367-E7EB7C27E232" name="PESSOA_FISICA">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>8F591F7D-FCC1-386E-3DD5-9AEE4F385524</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPessoa" id="CB56EEA9-7A35-B744-83A1-B14716AA8CA0">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único do cliente no sistema.]]></commentInRDBMS>
+<generatorID>76B568BF-0685-4EB9-D611-D2D3C9CE9C71</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B278AF3-09E8-816C-6007-50009930BDAA" referredColumn="29EF28D3-6AF0-5B48-0DAF-81B69D22CBA2"/>
+</associations>
+</Column>
+<Column name="cpf" id="D87AD33C-CFD0-ED9F-3238-CFC954B77A7B">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cadastro de Pessoa Física do cliente]]></commentInRDBMS>
+<generatorID>1F938578-9A2E-DFB6-F26A-8B5186D98D29</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="celular" id="10F5F099-8673-9E88-F36D-AFDB47213471">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número do celular do cliente com 11 posições:
+· Duas posições iniciais para o código DDD;
+· Nove posições restantes para o número.]]></commentInRDBMS>
+<generatorID>73EE6D87-8D30-D2CF-1E08-FC7F5BC120D3</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="F881EF46-2752-ACA5-F34B-856513A7B15D">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[Endereço de e-mail do cliente (se houver).]]></commentInRDBMS>
+<generatorID>D409FC7C-A6D7-6C57-99E4-D2330947B45D</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estadoCivil" id="410F0191-1FA4-9304-69A6-5DCF6FACA87F">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>01CFD0ED-6FB7-4DB5-BA96-9099B9E27621</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="C" description="Casado(a)"/>
+<valueDef value="D" description="Divorciado(a)"/>
+<valueDef value="S" description="Solteiro(a)"/>
+<valueDef value="V" description="Viuvo(a)"/>
+<valueDef value="X" description="Separado(a)"/>
+</listOfValues>
+<defaultValue>S</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="203DD407-6701-F9CE-9EE7-CB9DA71B6B94" name="PESSOA_FISICA_PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>898D934F-9232-5E73-3DB0-D9B390D74E3E</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB56EEA9-7A35-B744-83A1-B14716AA8CA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEA3EFBD-4CF1-FE1A-89FC-78EBD9F4D5C4" name="PESSOA_FISICA_PKv1">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>54DD296E-0917-D22C-D2B6-E92C81D7E0E6</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D87AD33C-CFD0-ED9F-3238-CFC954B77A7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB5561B8-40C9-543F-BDFA-68F8FCF7A9FD" name="PESSOA_FISICA_PESSOA_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>8610BF65-270E-6686-9B06-D8ABED9CD421</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB56EEA9-7A35-B744-83A1-B14716AA8CA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

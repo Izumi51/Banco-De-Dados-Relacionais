@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="trab extra" id="444191D0-3146-325B-BC01-E33A82973BBD" version="3.5">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-09 12:19:32 UTC</createdTime>
+<ownerDesignName>trab extra</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>444191D0-3146-325B-BC01-E33A82973BBD</designId>
+</OSDM_Design>

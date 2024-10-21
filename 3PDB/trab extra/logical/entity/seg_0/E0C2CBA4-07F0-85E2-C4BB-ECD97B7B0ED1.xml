@@ -79,6 +79,38 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,11,2</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nroConta" id="226FDB73-C4EE-9999-DE15-FB78BDF191D4">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:34:15 UTC</createdTime>
+<generatorID>732AE74A-1B6B-9A54-6CEC-60F58F62FE54</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<referedAttribute>EB42A0F9-DF7E-5CFF-3A92-2DCA6B87F66A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codAgencia" id="4A7A4C49-3296-CCE5-08E1-72A849C1DB2D">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:34:15 UTC</createdTime>
+<generatorID>732AE74A-1B6B-9A54-6CEC-60F58F62FE54</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<referedAttribute>7E29B5F5-A297-A464-433B-416BD3118B64</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="013AD5F2-2134-10C6-6D71-E933BC65A4F6" name="MOVIMENTO PK">

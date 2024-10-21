@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="401E5316-6704-A1BD-3DB2-45D8E8CF6CA5" name="ck_titularidade">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<ownerDesignName>trab extra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PESSOA_idPessoa" id="BF0A8223-0C76-9081-E32E-FBE5C18DCDAF">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<ownerDesignName>trab extra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D92BB269-CBBE-4AD8-88A6-BE995A5E10D8" referredColumn="29EF28D3-6AF0-5B48-0DAF-81B69D22CBA2"/>
+</associations>
+</Column>
+<Column name="CONTA_COMUM_nroConta" id="A436BFA0-B22A-C85A-7E16-A22E0C4A6B65">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<ownerDesignName>trab extra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85688C9C-0376-2AD7-F70B-971AE755F4D1" referredColumn="C129E8E4-DC16-A2D5-684A-A4BEA341D258"/>
+</associations>
+</Column>
+<Column name="CONTA_COMUM_codAgencia" id="D2F941AF-3C2D-C7D2-95D7-0B1C61AE4A83">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<ownerDesignName>trab extra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85688C9C-0376-2AD7-F70B-971AE755F4D1" referredColumn="FC020086-C90D-1219-B662-B9701BE3FD4D"/>
+</associations>
+</Column>
+<Column name="titularidade" id="CC8E807D-04EE-C288-C27E-A36DA90253AC">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>81B47B9F-4606-5266-9D75-2A7F0E8C3B09</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="Correntista Adicional"/>
+<valueDef value="T" description="Correntista Titular"/>
+</listOfValues>
+<defaultValue>T</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64BF2E5C-E326-E10C-479B-8C14E33A48EA" name="ck_titularidade_PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<ownerDesignName>trab extra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF0A8223-0C76-9081-E32E-FBE5C18DCDAF"/>
+<colUsage columnID="A436BFA0-B22A-C85A-7E16-A22E0C4A6B65"/>
+<colUsage columnID="D2F941AF-3C2D-C7D2-95D7-0B1C61AE4A83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B14189F-1C99-29E6-7506-01687BEB2BAA" name="ck_titularidade_PESSOA_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>0AC7E577-0B03-3106-36BF-C19A03F75D95</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF0A8223-0C76-9081-E32E-FBE5C18DCDAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C02900C-0874-5CE5-672C-DB7EBACBD15A" name="ck_titularidade_CONTA_COMUM_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>0AC7E577-0B03-3106-36BF-C19A03F75D95</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A436BFA0-B22A-C85A-7E16-A22E0C4A6B65"/>
+<colUsage columnID="D2F941AF-3C2D-C7D2-95D7-0B1C61AE4A83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

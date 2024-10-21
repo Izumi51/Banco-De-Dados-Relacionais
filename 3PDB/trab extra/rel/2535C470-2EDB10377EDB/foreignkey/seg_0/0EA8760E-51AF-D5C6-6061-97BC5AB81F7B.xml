@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0EA8760E-51AF-D5C6-6061-97BC5AB81F7B" containerWithKeyObject="C89C7361-3435-2146-7DA8-EFBA0AAC68DD" localFKIndex="B938064E-05D5-5DBE-3D9D-EA6586EC7426" name="MOVIMENTO_CONTA_COMUM_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>732AE74A-1B6B-9A54-6CEC-60F58F62FE54</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<referredTableLongName>CONTA_COMUM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DC4EF58F-51E8-9631-804A-90A18BAE2554</referredTableID>
+<keyObject>852D43F8-57E7-6C47-611E-5414AAE9F081</keyObject>
+<referredKeyID>852D43F8-57E7-6C47-611E-5414AAE9F081</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nroConta,codAgencia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

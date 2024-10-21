@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="271176C4-B34A-6724-538C-04DB60FCCA7E" name="CONTA_ESPECIAL">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>B2F5155B-F3CF-9953-A9D8-40F208D700F9</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nroConta" id="7A461AE7-1744-C640-883D-044925781C45">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número da conta corrente.]]></commentInRDBMS>
+<generatorID>EB42A0F9-DF7E-5CFF-3A92-2DCA6B87F66A</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="580A019C-1EB6-7D6F-14D9-AD6410F05693" referredColumn="C129E8E4-DC16-A2D5-684A-A4BEA341D258"/>
+</associations>
+</Column>
+<Column name="codAgencia" id="79C4CD4F-E832-82BC-DD79-CDE9E64B1ACC">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código da agência associada à conta corrente.]]></commentInRDBMS>
+<generatorID>7E29B5F5-A297-A464-433B-416BD3118B64</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="580A019C-1EB6-7D6F-14D9-AD6410F05693" referredColumn="FC020086-C90D-1219-B662-B9701BE3FD4D"/>
+</associations>
+</Column>
+<Column name="limite" id="7A2AE61F-E9DF-ADA5-1E64-2EDA401919F1">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>A7D4836D-6417-600C-01F3-D56B14FB717B</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E3C4556-509E-352E-E652-EE804550F012" name="CONTA_ESPECIAL_PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>99A595E1-550A-F3B6-4EA9-DE223C114476</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A461AE7-1744-C640-883D-044925781C45"/>
+<colUsage columnID="79C4CD4F-E832-82BC-DD79-CDE9E64B1ACC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14D26E34-56E5-05F0-8A2C-E59B1A8C62AF" name="CONTA_ESPECIAL_CONTA_COMUM_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>ECE24942-8895-D20A-CB75-6461FCA31874</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A461AE7-1744-C640-883D-044925781C45"/>
+<colUsage columnID="79C4CD4F-E832-82BC-DD79-CDE9E64B1ACC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

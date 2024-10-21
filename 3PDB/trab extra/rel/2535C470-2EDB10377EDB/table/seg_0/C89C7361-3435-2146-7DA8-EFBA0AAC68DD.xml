@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C89C7361-3435-2146-7DA8-EFBA0AAC68DD" name="MOVIMENTO">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>E0C2CBA4-07F0-85E2-C4BB-ECD97B7B0ED1</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idMovimento" id="34CBE00A-3284-7D8C-24E4-80D782B5D5C6">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>E7FAA368-0A62-29BB-64F4-BCE6AB274CAA</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoMovimento" id="A2E7D16D-6198-D8B4-A79F-8C3AFB466746">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>06842FEE-D62E-3BAF-C3D4-A76CFE267234</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataMovimento" id="F6EF2644-71F5-66E8-1DE3-B13711E4004C">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>B21683FB-46A2-EE5A-3590-76E356C437CB</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaMovimento" id="57273697-DA34-5CCE-4A25-07721BF18C47">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>8DFF08D4-2D8A-36FF-6704-A469F12D9F7D</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valorMovimento" id="96A0C98C-6BC4-4599-530F-ED62C0F92BC0">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>07918A96-E13C-3CB9-03CA-88CA671B94E7</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTA_COMUM_nroConta" id="A10065A2-5739-4A4F-FF45-02F8B7146354">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>226FDB73-C4EE-9999-DE15-FB78BDF191D4</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EA8760E-51AF-D5C6-6061-97BC5AB81F7B" referredColumn="C129E8E4-DC16-A2D5-684A-A4BEA341D258"/>
+</associations>
+</Column>
+<Column name="CONTA_COMUM_codAgencia" id="758B49E6-1DE1-2AF8-A0F9-F7CE00699401">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>4A7A4C49-3296-CCE5-08E1-72A849C1DB2D</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EA8760E-51AF-D5C6-6061-97BC5AB81F7B" referredColumn="FC020086-C90D-1219-B662-B9701BE3FD4D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB0D5BD7-0264-0E5A-9B98-F7DE821FF990" name="MOVIMENTO_PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>013AD5F2-2134-10C6-6D71-E933BC65A4F6</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34CBE00A-3284-7D8C-24E4-80D782B5D5C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B938064E-05D5-5DBE-3D9D-EA6586EC7426" name="MOVIMENTO_CONTA_COMUM_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>732AE74A-1B6B-9A54-6CEC-60F58F62FE54</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A10065A2-5739-4A4F-FF45-02F8B7146354"/>
+<colUsage columnID="758B49E6-1DE1-2AF8-A0F9-F7CE00699401"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

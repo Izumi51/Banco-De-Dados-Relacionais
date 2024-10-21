@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0D64C21-4318-4FC2-E68B-F0367E0D00F1" name="PESSOA_JURIDICA">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>220E94B6-4A2C-AB97-1172-D3E6EAB371C6</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPessoa" id="C558D776-68F4-AEF0-F7E7-5847A76DDF8F">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único do cliente no sistema.]]></commentInRDBMS>
+<generatorID>76B568BF-0685-4EB9-D611-D2D3C9CE9C71</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73B595C3-B1D1-FB1F-57DD-8C3561FE8636" referredColumn="29EF28D3-6AF0-5B48-0DAF-81B69D22CBA2"/>
+</associations>
+</Column>
+<Column name="cnpj" id="B2B5997C-459F-E683-91C4-D71F3ACA0EE0">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>01C44D8B-2698-E27A-8107-9B723D1A27CE</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inscrEstadual" id="001A3C10-9003-BF3D-8F01-7FBFAEA9609B">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>2DC0398F-A86B-BF0D-C2A4-A2E89D474FD6</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3150A4CA-BBF6-130A-D217-195A19F1550B" name="PESSOA_JURIDICA_PK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>898D934F-9232-5E73-3DB0-D9B390D74E3E</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C558D776-68F4-AEF0-F7E7-5847A76DDF8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="863B8788-EC2D-2D31-3369-96DDC099F17B" name="PESSOA_JURIDICA_PKv1">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>04B9F856-4A94-37DB-1A6A-EA3644927544</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2B5997C-459F-E683-91C4-D71F3ACA0EE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CBB90BC-EFA9-D3DF-C6D1-5CAC3F1D1E5F" name="PESSOA_JURIDICA_PESSOA_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>4EF4D38F-F959-F78A-5223-97C702E6592A</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C558D776-68F4-AEF0-F7E7-5847A76DDF8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

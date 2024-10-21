@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="580A019C-1EB6-7D6F-14D9-AD6410F05693" containerWithKeyObject="271176C4-B34A-6724-538C-04DB60FCCA7E" localFKIndex="14D26E34-56E5-05F0-8A2C-E59B1A8C62AF" name="CONTA_ESPECIAL_CONTA_COMUM_FK">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>ECE24942-8895-D20A-CB75-6461FCA31874</generatorID>
+<ownerDesignName>trab extra</ownerDesignName>
+<referredTableLongName>CONTA_COMUM</referredTableLongName>
+<arc>2D47F1FD-3278-1219-5C38-646B7CF4988E</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DC4EF58F-51E8-9631-804A-90A18BAE2554</referredTableID>
+<keyObject>852D43F8-57E7-6C47-611E-5414AAE9F081</keyObject>
+<referredKeyID>852D43F8-57E7-6C47-611E-5414AAE9F081</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nroConta,codAgencia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

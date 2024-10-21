@@ -1,58 +1,47 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="90B920EB-380D-3CDD-B96A-4889E64A3B9C" name="CONTA_COMUM">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC4EF58F-51E8-9631-804A-90A18BAE2554" name="CONTA_COMUM">
 <createdBy>alun23204708360001</createdBy>
-<createdTime>2024-10-09 12:33:44 UTC</createdTime>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>90B920EB-380D-3CDD-B96A-4889E64A3B9C</generatorID>
 <ownerDesignName>trab extra</ownerDesignName>
-<engineerTo>
-<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
-</engineerTo>
-<adequatelyNormalized>NO</adequatelyNormalized>
-<expectedVolumes>0</expectedVolumes>
-<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
-<growthPercent>0</growthPercent>
-<growthType>Year</growthType>
-<maxVolumes>9999999</maxVolumes>
-<minVolumes>0</minVolumes>
-<normalForm>Third</normalForm>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="nroConta" id="EB42A0F9-DF7E-5CFF-3A92-2DCA6B87F66A">
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nroConta" id="C129E8E4-DC16-A2D5-684A-A4BEA341D258">
 <createdBy>alun23204708360001</createdBy>
-<createdTime>2024-10-09 12:55:39 UTC</createdTime>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
 <commentInRDBMS><![CDATA[Número da conta corrente.]]></commentInRDBMS>
+<generatorID>EB42A0F9-DF7E-5CFF-3A92-2DCA6B87F66A</generatorID>
 <ownerDesignName>trab extra</ownerDesignName>
-<engineerTo>
-<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="codAgencia" id="7E29B5F5-A297-A464-433B-416BD3118B64">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codAgencia" id="FC020086-C90D-1219-B662-B9701BE3FD4D">
 <createdBy>alun23204708360001</createdBy>
-<createdTime>2024-10-09 12:56:21 UTC</createdTime>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
 <commentInRDBMS><![CDATA[Código da agência associada à conta corrente.]]></commentInRDBMS>
+<generatorID>7E29B5F5-A297-A464-433B-416BD3118B64</generatorID>
 <ownerDesignName>trab extra</ownerDesignName>
-<engineerTo>
-<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,4,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="tipoConta" id="736BE73B-A7B8-A4EA-8BE2-A9FE1CC621FE">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoConta" id="63B4F9E0-F8D0-8176-9048-761987E33C93">
 <createdBy>alun23204708360001</createdBy>
-<createdTime>2024-10-09 12:56:56 UTC</createdTime>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
 <commentInRDBMS><![CDATA[Indica o tipo de conta que será criada (comum,especial ou poupança).]]></commentInRDBMS>
+<generatorID>736BE73B-A7B8-A4EA-8BE2-A9FE1CC621FE</generatorID>
 <ownerDesignName>trab extra</ownerDesignName>
-<engineerTo>
-<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -63,42 +52,39 @@
 <valueDef value="3" description="Conta Poupança"/>
 </listOfValues>
 <ownDataTypeParameters>,1,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="dataAbertura" id="87A11101-AB0D-C89E-9B18-D93D600A47C3">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataAbertura" id="B0F1A97D-694F-DECF-E508-B16E83D00C27">
 <createdBy>alun23204708360001</createdBy>
-<createdTime>2024-10-09 12:58:55 UTC</createdTime>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
 <commentInRDBMS><![CDATA[Data de abertura da conta.]]></commentInRDBMS>
+<generatorID>87A11101-AB0D-C89E-9B18-D93D600A47C3</generatorID>
 <ownerDesignName>trab extra</ownerDesignName>
-<engineerTo>
-<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="dataEncerramento" id="9B7F8A5F-7B8F-CBD9-D623-21A9EBC432AB">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataEncerramento" id="B07C919A-B5E5-5F59-81CB-0EED4580B3C6">
 <createdBy>alun23204708360001</createdBy>
-<createdTime>2024-10-09 13:00:44 UTC</createdTime>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
 <commentInRDBMS><![CDATA[Data de encerramento da conta.]]></commentInRDBMS>
+<generatorID>9B7F8A5F-7B8F-CBD9-D623-21A9EBC432AB</generatorID>
 <ownerDesignName>trab extra</ownerDesignName>
-<engineerTo>
-<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="situacaoConta" id="89876207-31DB-AB40-D682-E4F599935BC1">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="situacaoConta" id="2DFF457C-0CA4-88C8-4225-A19AD0FEF1A5">
 <createdBy>alun23204708360001</createdBy>
-<createdTime>2024-10-09 13:01:21 UTC</createdTime>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
 <commentInRDBMS><![CDATA[Indica se a conta está ativa ou não no sistema.]]></commentInRDBMS>
+<generatorID>89876207-31DB-AB40-D682-E4F599935BC1</generatorID>
 <ownerDesignName>trab extra</ownerDesignName>
-<engineerTo>
-<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
@@ -108,48 +94,47 @@
 <valueDef value="1" description="Ativa"/>
 </listOfValues>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="senha" id="87BF297F-675A-5D14-C84C-AD620FE232E2">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="5DED04E9-FBF8-86F7-E033-6CA5DD46E288">
 <createdBy>alun23204708360001</createdBy>
-<createdTime>2024-10-09 13:01:48 UTC</createdTime>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
 <commentInRDBMS><![CDATA[Senha para acesso à conta.]]></commentInRDBMS>
+<generatorID>87BF297F-675A-5D14-C84C-AD620FE232E2</generatorID>
 <ownerDesignName>trab extra</ownerDesignName>
-<engineerTo>
-<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="saldo" id="F97522EE-A315-8204-B675-6A410C08FE9B">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="saldo" id="711E8DFC-75C4-E723-B35B-BE9357E7C63F">
 <createdBy>alun23204708360001</createdBy>
-<createdTime>2024-10-09 13:02:34 UTC</createdTime>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>F97522EE-A315-8204-B675-6A410C08FE9B</generatorID>
 <ownerDesignName>trab extra</ownerDesignName>
-<engineerTo>
-<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>11</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,11,2</ownDataTypeParameters>
-</Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="99A595E1-550A-F3B6-4EA9-DE223C114476" name="PESSOA_JURIDICA PK">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="852D43F8-57E7-6C47-611E-5414AAE9F081" name="CONTA_COMUM_PK">
 <createdBy>alun23204708360001</createdBy>
-<createdTime>2024-10-09 12:56:06 UTC</createdTime>
+<createdTime>2024-10-11 11:37:44 UTC</createdTime>
+<generatorID>99A595E1-550A-F3B6-4EA9-DE223C114476</generatorID>
 <ownerDesignName>trab extra</ownerDesignName>
-<engineerTo>
-<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
-</engineerTo>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>EB42A0F9-DF7E-5CFF-3A92-2DCA6B87F66A</attributeRef>
-<attributeRef>7E29B5F5-A297-A464-433B-416BD3118B64</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
-</Entity>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C129E8E4-DC16-A2D5-684A-A4BEA341D258"/>
+<colUsage columnID="FC020086-C90D-1219-B662-B9701BE3FD4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

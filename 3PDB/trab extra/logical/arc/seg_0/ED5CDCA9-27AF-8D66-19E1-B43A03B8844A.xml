@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="ED5CDCA9-27AF-8D66-19E1-B43A03B8844A" name="Arc_2">
+<createdBy>alun23204708360001</createdBy>
+<createdTime>2024-10-11 11:33:19 UTC</createdTime>
+<ownerDesignName>trab extra</ownerDesignName>
+<engineerTo>
+<item key="2535C470-F988-0696-7D2E-2EDB10377EDB" value="true"/>
+</engineerTo>
+<entity>90B920EB-380D-3CDD-B96A-4889E64A3B9C</entity>
+<relations>
+<relationID>ECE24942-8895-D20A-CB75-6461FCA31874</relationID>
+<relationID>C440B800-B9BF-584D-0FF1-899A7FECE889</relationID>
+</relations>
+</Arc>
